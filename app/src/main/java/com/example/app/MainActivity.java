@@ -28,13 +28,13 @@ public class MainActivity extends Activity {
         webSettings.setJavaScriptEnabled(true);
 
         // Use remote resource
-        // mWebView.loadUrl("http://example.com");
+        // mWebView.loadUrl("http://tehsuperwilly.tech");
 
         // Stop local links and redirects from opening in browser instead of WebView
         // mWebView.setWebViewClient(new MyAppWebViewClient());
 
         // Use local resource
-        // mWebView.loadUrl("file:///android_asset/www/index.html");
+        mWebView.loadUrl("file:///android_asset/www/index.html");
     }
 
     // Prevent the back-button from closing the app
